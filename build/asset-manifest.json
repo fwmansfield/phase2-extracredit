@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phase2-fred/static/css/main.1c9b3e01.css",
+    "main.js": "/phase2-fred/static/js/main.279941a9.js",
+    "index.html": "/phase2-fred/index.html",
+    "main.1c9b3e01.css.map": "/phase2-fred/static/css/main.1c9b3e01.css.map",
+    "main.279941a9.js.map": "/phase2-fred/static/js/main.279941a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c9b3e01.css",
+    "static/js/main.279941a9.js"
+  ]
+}

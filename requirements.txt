@@ -1,0 +1,20 @@
+Functional Requirements
+x 1 The app should display a list of Customer records.
+x 2 The label “Customer List” should appear on-screen, above the list of Customer records.
+x 3 The following fields should be maintained for each Customer: name, email, password.
+x 4 Users can select a record by clicking on it in the list.
+x 5 Selected records should appear with a bold font.
+6 Clicking on an already selected record should remove the selection.
+7 The section below the Customer list should hold an add-update form. The form’s title should be either “Add” or “Update” depending on the forms current mode. (Add for new records, Update when it is showing the selected record)
+8 The add-update form section should show the name, email and password of the record selected in the Customer list.
+9 Three buttons, delete, save and cancel should appear below the Add-update form section.
+10 Clicking the delete button when a record is selected should delete the selected record.
+11 Deleted records should no longer show in the Customer List.
+12 Users should be able to modify any of the data (name, email or password) in the Add-update form section.
+13 Clicking the save button when a selected record has been modified in the Add-update form section should update the original record with the modified values.
+14 After a record is modified the customer list should be updated so that the modified field values are visible in the list.
+15 Clicking on the Cancel button should de-select the selected record.
+16 After clicking cancel the fields in the Add-update form section should be empty.
+17 When no record is selected the user can type new data into the fields in the Add-update form section.
+18 Clicking Save when no record is selected and when data has been entered into the Add-update form fields should add a new record.
+19 After a new record has been added the Customer List should be updated to include the new record.
