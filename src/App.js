@@ -6,6 +6,38 @@ function log(message) {
   console.log(message);
 }
 
+function CustomerList(params) {
+  return (
+    <div className="boxed">
+      <h4>Customer List</h4>
+      <table id="customer-list">
+        <thead>
+          <tr>
+            <th>Names</th>
+            <th>Email</th>
+            <th>Password</th>
+          </tr>
+        </thead>
+        <tbody>
+          {params.customers.map((item, index) => {
+            return (
+              <tr
+                key={item.id}
+                className={item.id === params.formObject.id ? "selected" : ""}
+                onClick={() => params.handleListClick(item)}
+              >
+                <td>{item.name}</td>
+                <td>{item.email}</td>
+                <td>{item.password}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 export function App(params) {
   let blankCustomer = { id: -1, name: "", email: "", password: "" };
   const [customers, setCustomers] = useState([]);
@@ -65,6 +97,12 @@ export function App(params) {
 
   return (
     <div>
+      <CustomerList
+        customers={customers}
+        formObject={formObject}
+        handleListClick={handleListClick}
+      />
+
       <div className="boxed">
         <h4>Customer List</h4>
         <table id="customer-list">
