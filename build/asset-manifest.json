@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/phase2-fred/static/css/main.1c9b3e01.css",
-    "main.js": "/phase2-fred/static/js/main.279941a9.js",
-    "index.html": "/phase2-fred/index.html",
-    "main.1c9b3e01.css.map": "/phase2-fred/static/css/main.1c9b3e01.css.map",
-    "main.279941a9.js.map": "/phase2-fred/static/js/main.279941a9.js.map"
+    "main.css": "/phase2-fred-extracredit/static/css/main.1c9b3e01.css",
+    "main.js": "/phase2-fred-extracredit/static/js/main.e77b5fae.js",
+    "index.html": "/phase2-fred-extracredit/index.html",
+    "main.1c9b3e01.css.map": "/phase2-fred-extracredit/static/css/main.1c9b3e01.css.map",
+    "main.e77b5fae.js.map": "/phase2-fred-extracredit/static/js/main.e77b5fae.js.map"
   },
   "entrypoints": [
     "static/css/main.1c9b3e01.css",
-    "static/js/main.279941a9.js"
+    "static/js/main.e77b5fae.js"
   ]
 }
